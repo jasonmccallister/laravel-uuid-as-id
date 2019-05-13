@@ -1,0 +1,41 @@
+{
+    "name": "jasonmccallister/laravel-uuid-as-id",
+    "description": ":package_description",
+    "keywords": [
+        "jasonmccallister",
+        "laravel-uuid-as-id",
+        "laravel",
+        "uuid"
+    ],
+    "homepage": "https://github.com/jasonmccallister/laravel-uuid-as-id",
+    "license": "MIT",
+    "authors": [{
+        "name": "Jason McCallister",
+        "email": "themccallister@gmail.com",
+        "homepage": "https://mccallister.io",
+        "role": "Developer"
+    }],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "JasonMcCallister\\UuidAsId\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JasonMcCallister\\UuidAsId\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
