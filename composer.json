@@ -1,6 +1,6 @@
 {
     "name": "jasonmccallister/laravel-uuid-as-id",
-    "description": ":package_description",
+    "description": "Simple Laravel package that includes a trait for using UUIDs and IDs on Eloquent models",
     "keywords": [
         "jasonmccallister",
         "laravel-uuid-as-id",
